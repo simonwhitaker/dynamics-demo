@@ -19,6 +19,20 @@
 		F454BC38184285050086BE2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F454BC20184285050086BE2F /* UIKit.framework */; };
 		F454BC40184285050086BE2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F454BC3E184285050086BE2F /* InfoPlist.strings */; };
 		F454BC42184285050086BE2F /* Dynamics_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC41184285050086BE2F /* Dynamics_DemoTests.m */; };
+		F454BC581842851C0086BE2F /* photo_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC4C1842851C0086BE2F /* photo_01.jpg */; };
+		F454BC591842851C0086BE2F /* photo_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC4D1842851C0086BE2F /* photo_02.jpg */; };
+		F454BC5A1842851C0086BE2F /* photo_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC4E1842851C0086BE2F /* photo_03.jpg */; };
+		F454BC5B1842851C0086BE2F /* photo_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC4F1842851C0086BE2F /* photo_04.jpg */; };
+		F454BC5C1842851C0086BE2F /* photo_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC501842851C0086BE2F /* photo_05.jpg */; };
+		F454BC5D1842851C0086BE2F /* photo_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC511842851C0086BE2F /* photo_06.jpg */; };
+		F454BC5E1842851C0086BE2F /* photo_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC521842851C0086BE2F /* photo_07.jpg */; };
+		F454BC5F1842851C0086BE2F /* photo_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC531842851C0086BE2F /* photo_08.jpg */; };
+		F454BC601842851C0086BE2F /* photo_09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC541842851C0086BE2F /* photo_09.jpg */; };
+		F454BC611842851C0086BE2F /* photo_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC551842851C0086BE2F /* photo_10.jpg */; };
+		F454BC621842851C0086BE2F /* photo_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC561842851C0086BE2F /* photo_11.jpg */; };
+		F454BC631842851C0086BE2F /* photo_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC571842851C0086BE2F /* photo_12.jpg */; };
+		F454BC661842853F0086BE2F /* SWPhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC651842853F0086BE2F /* SWPhotoCollectionViewController.m */; };
+		F454BC69184286600086BE2F /* SWPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC68184286600086BE2F /* SWPhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,22 @@
 		F454BC3D184285050086BE2F /* Dynamics DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dynamics DemoTests-Info.plist"; sourceTree = "<group>"; };
 		F454BC3F184285050086BE2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F454BC41184285050086BE2F /* Dynamics_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamics_DemoTests.m; sourceTree = "<group>"; };
+		F454BC4C1842851C0086BE2F /* photo_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_01.jpg; sourceTree = "<group>"; };
+		F454BC4D1842851C0086BE2F /* photo_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_02.jpg; sourceTree = "<group>"; };
+		F454BC4E1842851C0086BE2F /* photo_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_03.jpg; sourceTree = "<group>"; };
+		F454BC4F1842851C0086BE2F /* photo_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_04.jpg; sourceTree = "<group>"; };
+		F454BC501842851C0086BE2F /* photo_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_05.jpg; sourceTree = "<group>"; };
+		F454BC511842851C0086BE2F /* photo_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_06.jpg; sourceTree = "<group>"; };
+		F454BC521842851C0086BE2F /* photo_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_07.jpg; sourceTree = "<group>"; };
+		F454BC531842851C0086BE2F /* photo_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_08.jpg; sourceTree = "<group>"; };
+		F454BC541842851C0086BE2F /* photo_09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_09.jpg; sourceTree = "<group>"; };
+		F454BC551842851C0086BE2F /* photo_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_10.jpg; sourceTree = "<group>"; };
+		F454BC561842851C0086BE2F /* photo_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_11.jpg; sourceTree = "<group>"; };
+		F454BC571842851C0086BE2F /* photo_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_12.jpg; sourceTree = "<group>"; };
+		F454BC641842853F0086BE2F /* SWPhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhotoCollectionViewController.h; sourceTree = "<group>"; };
+		F454BC651842853F0086BE2F /* SWPhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhotoCollectionViewController.m; sourceTree = "<group>"; };
+		F454BC67184286600086BE2F /* SWPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhotoCell.h; sourceTree = "<group>"; };
+		F454BC68184286600086BE2F /* SWPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +139,12 @@
 			children = (
 				F454BC2B184285050086BE2F /* SWAppDelegate.h */,
 				F454BC2C184285050086BE2F /* SWAppDelegate.m */,
+				F454BC67184286600086BE2F /* SWPhotoCell.h */,
+				F454BC68184286600086BE2F /* SWPhotoCell.m */,
+				F454BC641842853F0086BE2F /* SWPhotoCollectionViewController.h */,
+				F454BC651842853F0086BE2F /* SWPhotoCollectionViewController.m */,
 				F454BC2E184285050086BE2F /* Images.xcassets */,
+				F454BC4B1842851C0086BE2F /* photos */,
 				F454BC23184285050086BE2F /* Supporting Files */,
 			);
 			path = "Dynamics Demo";
@@ -142,6 +177,25 @@
 				F454BC3E184285050086BE2F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F454BC4B1842851C0086BE2F /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC4C1842851C0086BE2F /* photo_01.jpg */,
+				F454BC4D1842851C0086BE2F /* photo_02.jpg */,
+				F454BC4E1842851C0086BE2F /* photo_03.jpg */,
+				F454BC4F1842851C0086BE2F /* photo_04.jpg */,
+				F454BC501842851C0086BE2F /* photo_05.jpg */,
+				F454BC511842851C0086BE2F /* photo_06.jpg */,
+				F454BC521842851C0086BE2F /* photo_07.jpg */,
+				F454BC531842851C0086BE2F /* photo_08.jpg */,
+				F454BC541842851C0086BE2F /* photo_09.jpg */,
+				F454BC551842851C0086BE2F /* photo_10.jpg */,
+				F454BC561842851C0086BE2F /* photo_11.jpg */,
+				F454BC571842851C0086BE2F /* photo_12.jpg */,
+			);
+			path = photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +274,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F454BC5C1842851C0086BE2F /* photo_05.jpg in Resources */,
+				F454BC611842851C0086BE2F /* photo_10.jpg in Resources */,
 				F454BC27184285050086BE2F /* InfoPlist.strings in Resources */,
+				F454BC5D1842851C0086BE2F /* photo_06.jpg in Resources */,
+				F454BC581842851C0086BE2F /* photo_01.jpg in Resources */,
+				F454BC5E1842851C0086BE2F /* photo_07.jpg in Resources */,
+				F454BC601842851C0086BE2F /* photo_09.jpg in Resources */,
+				F454BC591842851C0086BE2F /* photo_02.jpg in Resources */,
+				F454BC5A1842851C0086BE2F /* photo_03.jpg in Resources */,
+				F454BC5B1842851C0086BE2F /* photo_04.jpg in Resources */,
+				F454BC5F1842851C0086BE2F /* photo_08.jpg in Resources */,
 				F454BC2F184285050086BE2F /* Images.xcassets in Resources */,
+				F454BC621842851C0086BE2F /* photo_11.jpg in Resources */,
+				F454BC631842851C0086BE2F /* photo_12.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F454BC69184286600086BE2F /* SWPhotoCell.m in Sources */,
+				F454BC661842853F0086BE2F /* SWPhotoCollectionViewController.m in Sources */,
 				F454BC2D184285050086BE2F /* SWAppDelegate.m in Sources */,
 				F454BC29184285050086BE2F /* main.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "SWAppDelegate.h"
+#import "SWPhotoCollectionViewController.h"
 
 @implementation SWAppDelegate
 
@@ -14,7 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor blackColor];
+    SWPhotoCollectionViewController *vc = [[SWPhotoCollectionViewController alloc] initWithCollectionViewLayout:[[UICollectionViewFlowLayout alloc] init]];
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
 }
