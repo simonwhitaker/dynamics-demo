@@ -14,11 +14,6 @@
 		F454BC29184285050086BE2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC28184285050086BE2F /* main.m */; };
 		F454BC2D184285050086BE2F /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC2C184285050086BE2F /* SWAppDelegate.m */; };
 		F454BC2F184285050086BE2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F454BC2E184285050086BE2F /* Images.xcassets */; };
-		F454BC36184285050086BE2F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F454BC35184285050086BE2F /* XCTest.framework */; };
-		F454BC37184285050086BE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F454BC1C184285050086BE2F /* Foundation.framework */; };
-		F454BC38184285050086BE2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F454BC20184285050086BE2F /* UIKit.framework */; };
-		F454BC40184285050086BE2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F454BC3E184285050086BE2F /* InfoPlist.strings */; };
-		F454BC42184285050086BE2F /* Dynamics_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC41184285050086BE2F /* Dynamics_DemoTests.m */; };
 		F454BC581842851C0086BE2F /* photo_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC4C1842851C0086BE2F /* photo_01.jpg */; };
 		F454BC591842851C0086BE2F /* photo_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC4D1842851C0086BE2F /* photo_02.jpg */; };
 		F454BC5A1842851C0086BE2F /* photo_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC4E1842851C0086BE2F /* photo_03.jpg */; };
@@ -36,16 +31,6 @@
 		F454BC6C184289A70086BE2F /* SWPhotoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC6B184289A70086BE2F /* SWPhotoOverlayView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F454BC39184285050086BE2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F454BC11184285050086BE2F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F454BC18184285050086BE2F;
-			remoteInfo = "Dynamics Demo";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		F454BC19184285050086BE2F /* Dynamics Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamics Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F454BC1C184285050086BE2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,11 +43,7 @@
 		F454BC2B184285050086BE2F /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
 		F454BC2C184285050086BE2F /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
 		F454BC2E184285050086BE2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F454BC34184285050086BE2F /* Dynamics DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamics DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F454BC35184285050086BE2F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F454BC3D184285050086BE2F /* Dynamics DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dynamics DemoTests-Info.plist"; sourceTree = "<group>"; };
-		F454BC3F184285050086BE2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F454BC41184285050086BE2F /* Dynamics_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamics_DemoTests.m; sourceTree = "<group>"; };
 		F454BC4C1842851C0086BE2F /* photo_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_01.jpg; sourceTree = "<group>"; };
 		F454BC4D1842851C0086BE2F /* photo_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_02.jpg; sourceTree = "<group>"; };
 		F454BC4E1842851C0086BE2F /* photo_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_03.jpg; sourceTree = "<group>"; };
@@ -94,16 +75,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F454BC31184285050086BE2F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F454BC36184285050086BE2F /* XCTest.framework in Frameworks */,
-				F454BC38184285050086BE2F /* UIKit.framework in Frameworks */,
-				F454BC37184285050086BE2F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -111,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				F454BC22184285050086BE2F /* Dynamics Demo */,
-				F454BC3B184285050086BE2F /* Dynamics DemoTests */,
 				F454BC1B184285050086BE2F /* Frameworks */,
 				F454BC1A184285050086BE2F /* Products */,
 			);
@@ -121,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				F454BC19184285050086BE2F /* Dynamics Demo.app */,
-				F454BC34184285050086BE2F /* Dynamics DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,24 +135,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F454BC3B184285050086BE2F /* Dynamics DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				F454BC41184285050086BE2F /* Dynamics_DemoTests.m */,
-				F454BC3C184285050086BE2F /* Supporting Files */,
-			);
-			path = "Dynamics DemoTests";
-			sourceTree = "<group>";
-		};
-		F454BC3C184285050086BE2F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F454BC3D184285050086BE2F /* Dynamics DemoTests-Info.plist */,
-				F454BC3E184285050086BE2F /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F454BC4B1842851C0086BE2F /* photos */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,24 +174,6 @@
 			productReference = F454BC19184285050086BE2F /* Dynamics Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F454BC33184285050086BE2F /* Dynamics DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F454BC48184285050086BE2F /* Build configuration list for PBXNativeTarget "Dynamics DemoTests" */;
-			buildPhases = (
-				F454BC30184285050086BE2F /* Sources */,
-				F454BC31184285050086BE2F /* Frameworks */,
-				F454BC32184285050086BE2F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F454BC3A184285050086BE2F /* PBXTargetDependency */,
-			);
-			name = "Dynamics DemoTests";
-			productName = "Dynamics DemoTests";
-			productReference = F454BC34184285050086BE2F /* Dynamics DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,11 +183,6 @@
 				CLASSPREFIX = SW;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Simon Whitaker";
-				TargetAttributes = {
-					F454BC33184285050086BE2F = {
-						TestTargetID = F454BC18184285050086BE2F;
-					};
-				};
 			};
 			buildConfigurationList = F454BC14184285050086BE2F /* Build configuration list for PBXProject "Dynamics Demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -269,7 +197,6 @@
 			projectRoot = "";
 			targets = (
 				F454BC18184285050086BE2F /* Dynamics Demo */,
-				F454BC33184285050086BE2F /* Dynamics DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,14 +223,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F454BC32184285050086BE2F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F454BC40184285050086BE2F /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -319,37 +238,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F454BC30184285050086BE2F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F454BC42184285050086BE2F /* Dynamics_DemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F454BC3A184285050086BE2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F454BC18184285050086BE2F /* Dynamics Demo */;
-			targetProxy = F454BC39184285050086BE2F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F454BC25184285050086BE2F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F454BC26184285050086BE2F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F454BC3E184285050086BE2F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F454BC3F184285050086BE2F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -455,48 +350,6 @@
 			};
 			name = Release;
 		};
-		F454BC49184285050086BE2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dynamics Demo.app/Dynamics Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dynamics Demo/Dynamics Demo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Dynamics DemoTests/Dynamics DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F454BC4A184285050086BE2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dynamics Demo.app/Dynamics Demo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Dynamics Demo/Dynamics Demo-Prefix.pch";
-				INFOPLIST_FILE = "Dynamics DemoTests/Dynamics DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,14 +369,7 @@
 				F454BC47184285050086BE2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F454BC48184285050086BE2F /* Build configuration list for PBXNativeTarget "Dynamics DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F454BC49184285050086BE2F /* Debug */,
-				F454BC4A184285050086BE2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
