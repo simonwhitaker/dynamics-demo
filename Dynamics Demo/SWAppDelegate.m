@@ -16,7 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor blackColor];
-    SWPhotoCollectionViewController *vc = [[SWPhotoCollectionViewController alloc] initWithCollectionViewLayout:[[UICollectionViewFlowLayout alloc] init]];
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    flowLayout.minimumInteritemSpacing = 10.0;
+    flowLayout.minimumLineSpacing = 10.0;
+    flowLayout.itemSize = CGSizeMake(100.0, 120.0);
+    SWPhotoCollectionViewController *vc = [[SWPhotoCollectionViewController alloc] initWithCollectionViewLayout:flowLayout];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
