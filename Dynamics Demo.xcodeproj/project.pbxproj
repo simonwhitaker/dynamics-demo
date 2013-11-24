@@ -33,6 +33,7 @@
 		F454BC631842851C0086BE2F /* photo_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F454BC571842851C0086BE2F /* photo_12.jpg */; };
 		F454BC661842853F0086BE2F /* SWPhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC651842853F0086BE2F /* SWPhotoCollectionViewController.m */; };
 		F454BC69184286600086BE2F /* SWPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC68184286600086BE2F /* SWPhotoCell.m */; };
+		F454BC6C184289A70086BE2F /* SWPhotoOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC6B184289A70086BE2F /* SWPhotoOverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		F454BC651842853F0086BE2F /* SWPhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhotoCollectionViewController.m; sourceTree = "<group>"; };
 		F454BC67184286600086BE2F /* SWPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhotoCell.h; sourceTree = "<group>"; };
 		F454BC68184286600086BE2F /* SWPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhotoCell.m; sourceTree = "<group>"; };
+		F454BC6A184289A70086BE2F /* SWPhotoOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPhotoOverlayView.h; sourceTree = "<group>"; };
+		F454BC6B184289A70086BE2F /* SWPhotoOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPhotoOverlayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,8 @@
 				F454BC68184286600086BE2F /* SWPhotoCell.m */,
 				F454BC641842853F0086BE2F /* SWPhotoCollectionViewController.h */,
 				F454BC651842853F0086BE2F /* SWPhotoCollectionViewController.m */,
+				F454BC6A184289A70086BE2F /* SWPhotoOverlayView.h */,
+				F454BC6B184289A70086BE2F /* SWPhotoOverlayView.m */,
 				F454BC2E184285050086BE2F /* Images.xcassets */,
 				F454BC4B1842851C0086BE2F /* photos */,
 				F454BC23184285050086BE2F /* Supporting Files */,
@@ -308,6 +313,7 @@
 			files = (
 				F454BC69184286600086BE2F /* SWPhotoCell.m in Sources */,
 				F454BC661842853F0086BE2F /* SWPhotoCollectionViewController.m in Sources */,
+				F454BC6C184289A70086BE2F /* SWPhotoOverlayView.m in Sources */,
 				F454BC2D184285050086BE2F /* SWAppDelegate.m in Sources */,
 				F454BC29184285050086BE2F /* main.m in Sources */,
 			);

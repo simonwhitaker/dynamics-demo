@@ -8,10 +8,11 @@
 
 #import "SWPhotoCollectionViewController.h"
 #import "SWPhotoCell.h"
+#import "SWPhotoOverlayView.h"
 
 static NSString *const kCellId = @"cellId";
 
-@interface SWPhotoCollectionViewController () <UICollectionViewDelegateFlowLayout>
+@interface SWPhotoCollectionViewController ()
 
 @end
 
@@ -34,8 +35,22 @@ static NSString *const kCellId = @"cellId";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     SWPhotoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCellId forIndexPath:indexPath];
-    cell.imageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"photo_%02i.jpg", indexPath.row + 1]];
+    cell.imageView.image = [self _imageForIndexPath:indexPath];
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    SWPhotoOverlayView *pov = [[SWPhotoOverlayView alloc] initWithFrame:self.view.bounds];
+    pov.imageView.image = [self _imageForIndexPath:indexPath];
+    pov.alpha = 0.0;
+    [self.view addSubview:pov];
+    [UIView animateWithDuration:0.2 animations:^{
+        pov.alpha = 1.0;
+    }];
+}
+
+- (UIImage*)_imageForIndexPath:(NSIndexPath*)indexPath {
+    return [UIImage imageNamed:[NSString stringWithFormat:@"photo_%02i.jpg", indexPath.row + 1]];
 }
 
 @end
