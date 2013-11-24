@@ -18,21 +18,13 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor redColor];
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.bounds];
         imageView.contentMode = UIViewContentModeScaleAspectFill;
-//        imageView.translatesAutoresizingMaskIntoConstraints = NO;
         imageView.clipsToBounds = YES;
-        imageView.backgroundColor = [UIColor blueColor];
         [self addSubview:imageView];
         self.imageView = imageView;
     }
     return self;
 }
-
-//- (void)prepareForReuse {
-//    [super prepareForReuse];
-//    self.imageView.image = nil;
-//}
 
 @end
