@@ -51,7 +51,7 @@
         self.attachmentBehavior = attachment;
         
         UIGravityBehavior *fall = [[UIGravityBehavior alloc] initWithItems:@[self.imageView]];
-        fall.magnitude = 4.0;
+        fall.magnitude = 6.0;
         fall.action = ^{
             if (!CGRectIntersectsRect(self.frame, self.imageView.frame)) {
                 self.animator = nil;
@@ -78,7 +78,7 @@
         kick.magnitude = 20.0;
         
         UIGravityBehavior *fall = [[UIGravityBehavior alloc] initWithItems:@[self.imageView]];
-        fall.magnitude = 4.0;
+        fall.magnitude = 6.0;
         fall.action = ^{
             if (!CGRectIntersectsRect(self.frame, self.imageView.frame)) {
                 self.animator = nil;
